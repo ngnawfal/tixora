@@ -1,0 +1,8 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28" fill="#141413"/>
+  <!-- Ticket stub shape -->
+  <path d="M24 44C24 38.4772 28.4772 34 34 34H94C99.5228 34 104 38.4772 104 44V55C99.0294 55 95 59.0294 95 64C95 68.9706 99.0294 73 104 73V84C104 89.5228 99.5228 94 94 94H34C28.4772 94 24 89.5228 24 84V73C28.9706 73 33 68.9706 33 64C33 59.0294 28.9706 55 24 55V44Z" fill="#E04826"/>
+  <!-- Stylized T monogram + perforation dot -->
+  <path d="M44 50H78V57.5H65V80H57V57.5H44V50Z" fill="#FAF9F5"/>
+  <circle cx="84" cy="76" r="4" fill="#141413"/>
+</svg>

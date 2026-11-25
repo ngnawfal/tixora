@@ -1,0 +1,8 @@
+.env
+cookies.txt
+user-cookies.txt
+*.log
+.DS_Store
+Thumbs.db
+database/nawfdev_uts_ppll.sql
+assets/uploads/69ef124d82e1d.jpg

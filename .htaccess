@@ -1,0 +1,29 @@
+# ============================================================
+# TIXORA — Apache Security & Access Rules
+# ============================================================
+Options -Indexes
+
+# Blokir akses langsung ke file sensitif (.env, .sql, .md, log, git)
+<FilesMatch "(^\.env|^\.git|\.sql$|\.log$|cookies\.txt$)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Blokir akses langsung ke folder internal
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(includes|database)/ - [F,L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>

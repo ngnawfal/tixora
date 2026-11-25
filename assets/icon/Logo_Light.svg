@@ -1,0 +1,10 @@
+<svg width="260" height="64" viewBox="0 0 260 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Emblem -->
+  <rect x="2" y="6" width="52" height="52" rx="14" fill="#141413"/>
+  <path d="M11 23.5C11 21.0147 13.0147 19 15.5 19H40.5C42.9853 19 45 21.0147 45 23.5V28C42.7909 28 41 29.7909 41 32C41 34.2091 42.7909 36 45 36V40.5C45 42.9853 42.9853 45 40.5 45H15.5C13.0147 45 11 42.9853 11 40.5V36C13.2091 36 15 34.2091 15 32C15 29.7909 13.2091 28 11 28V23.5Z" fill="#E04826"/>
+  <path d="M19.5 25.5H34.5V29H29V39H25V29H19.5V25.5Z" fill="#FAF9F5"/>
+  <circle cx="37" cy="37" r="2" fill="#141413"/>
+  <!-- Wordmark -->
+  <text x="68" y="36" fill="#141413" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif" font-size="27" font-weight="800" letter-spacing="0.06em">TIX<tspan fill="#E04826">ORA</tspan></text>
+  <text x="69" y="51" fill="#6F6C64" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.16em">CONCERT TICKETING</text>
+</svg>
